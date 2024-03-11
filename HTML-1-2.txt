@@ -1,0 +1,45 @@
+Exercício 1.2 Quantos arquivos CSS e Javascript podem estar vinculados a uma mesma página de
+hipertexto? Justifique sua resposta. 
+
+    Não existe um limite para a quantidade de arquivos vinculados, porém, é importante salientar que 
+    quanto mais arquivos forem vinculados e quanto maior for o tamanho desses arquivos, maior será o tempo de carregamento da página.
+------------------------------------------------------------------------------------------------
+
+Exercício 1.3 É possível diferentes páginas de hipertexto terem vínculo com os mesmos arquivos
+Javascript e CSS? Justifique sua resposta.
+
+    Sim, é possível, e essa prática traz melhorias, bem como: 
+        - ajuda na reutilização de códigos sem precisar repetir o mesmo código várias vezes; 
+        - reduz a sobrecarga de carregamento dos arquivos, pois estes já foram carregados em uma página e depois serão mantidos em 
+        cache pelo navegador. 
+------------------------------------------------------------------------------------------------
+
+Exercício 1.4 Descreva a diferença entre uma página de hipertexto estática e uma dinâmica,
+pontuando as vantagens e desvantagens de cada um dos dois tipos. 
+
+    Uma página hipertexto estática é aquela onde o conteúdo é fixo e só muda se o desenvolvedor edite o código de forma manual. 
+    Dentre as vantagens da página estática, está a simplicidade — pois não requer processamento — e melhor desempenho com um carregamento mais rápido. 
+    As desvantagens englobam o limite de interatividade do usuário, ter que fazer atualizações manualmente e a dificuldade em escalar os códigos. 
+
+    Já a página hipertexto dinâmica é uma página onde o conteúdo é gerado dinamicamente no servidor e em tempo real, muitas vezes
+    sendo uma resposta a solicitações do usuário. 
+    Dentre as vantagens de uma página dinâmica está a facilidade de atualização, a escalabilidade e interatividade com o usuário.
+    Suas desvantagens englobam a complexidade, o desempenho mais lento — devido ao processamento do servidor e do BD — e a segurança, já que essas páginas
+    são mais sensíveis a ataques se não forem devidamente protegidas. 
+------------------------------------------------------------------------------------------------
+
+Exercício 1.5 Qual é o caminho percorrido por uma requisição HTTP a uma página de hipertexto
+estática?
+
+    Solicitação do cliente (URL da página) > Resolução de DNS (Domínio + IP) por parte do servidor DNS > Envio da Requisição HTTP para o servidor Web > Servidor 
+    devolve as páginas estáticas, renderiza e exibe de volta para o cliente (resposta HTTP). 
+------------------------------------------------------------------------------------------------
+
+Exercício 1.7 Quais as vantagens da atualização parcial de conteúdo em segundo plano em uma
+página de hipertexto usando Javascript?
+
+    Existem algumas vantagens na atualização parcial de conteúdo, dentre elas estão a melhoria da experiência do usuário, permitindo maior fluidez na navegação
+    e melhor sensaçã de responsividade. Há ainda, uma redução no tempo de carregamento, pois só os dados necessários são transmitidos entre servidor/cliente. Do lado do desenvolvimento, temos maior flexibilidade de código, permitindo uma melhor manutenção e extensão. 
+
+
+
