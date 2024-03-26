@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+}
+
+.primeiroItem {
+    align-self: flex-start;
+}
+
+.segundoItem {
+    align-self: center;
+}
+
+.terceiroItem {
+    align-self: flex-end;
+}
